@@ -1,0 +1,53 @@
+{"timestamp": "2026-05-09T11:20:49.881990Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T11:20:49.883003Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T11:20:49.883427Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T11:20:49.883928Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:20:49.890019Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:20:49.892764Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:20:49.893155Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:20:50.377216Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:20:50.419705Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:20:56.372993Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:20:56.401904Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:20:56.419354Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "topic": "Healthcare", "thread_id": "9abef6f9-2896-447a-a047-09109e72decb", "timestamp": "2026-05-09T11:20:56.420900Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "Healthcare", "timestamp": "2026-05-09T11:20:56.426578Z", "level": "info", "event": "Creating analyst personas"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "count": 2, "timestamp": "2026-05-09T11:20:57.173847Z", "level": "info", "event": "Analysts created"}
+{"timestamp": "2026-05-09T11:21:04.754035Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T11:21:04.754322Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T11:21:04.754628Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T11:21:04.754851Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:21:04.757607Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:21:04.757925Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:21:04.758151Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:21:04.857545Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:21:04.857978Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:21:04.859064Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:21:04.874243Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:21:04.896933Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "thread_id": "9abef6f9-2896-447a-a047-09109e72decb", "timestamp": "2026-05-09T11:21:04.900479Z", "level": "info", "event": "Feedback updated"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T11:21:04.908193Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T11:21:04.912160Z", "level": "info", "event": "Generating analyst question"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "My name is Emily Chen, and I'm a healthcare analyst. I'm excited to be speaking with the expert today to gain some valuable insights on the topic. \n\nExpert, I'd like to start by asking: What are some ", "timestamp": "2026-05-09T11:21:05.359709Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:21:05.360878Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "My name is Ethan Thompson, and I'm a healthcare analyst. I'm excited to be speaking with the expert today to gain some valuable insights on the integration of technology in healthcare. \n\nExpert, I'd l", "timestamp": "2026-05-09T11:21:05.511489Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:21:05.512314Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "healthcare accessibility and affordability challenges and policy solutions", "timestamp": "2026-05-09T11:21:05.555576Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "artificial intelligence applications in healthcare and patient outcomes", "timestamp": "2026-05-09T11:21:05.766163Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2026-05-09T11:21:06.740965Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T11:21:06.742118Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "current_usage": 0, "estimated_tokens": 2468, "projected_usage": 2468, "safe_limit": 10200, "can_proceed": true, "usage_percent": 24.196078431372552, "timestamp": "2026-05-09T11:21:06.999556Z", "level": "info", "event": "Token check"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T11:21:07.303680Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T11:21:07.306057Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2026-05-09T11:21:08.787121Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T11:21:08.789133Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "error": "cannot unpack non-iterable datetime.datetime object", "timestamp": "2026-05-09T11:21:08.793782Z", "level": "error", "event": "Error generating answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 3586, "timestamp": "2026-05-09T11:21:09.317492Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "ReportService", "error": "Error in [D:\\automated-research-report-generation\\research_and_analyst\\utils\\token_limiter.py] at line [52] | Message: Failed to generate answer\nTraceback:\nTraceback (most recent call last):\n  File \"D:\\automated-research-report-generation\\research_and_analyst\\workflows\\interview_workflow.py\", line 139, in _generate_answer\n    can_proceed, status = self.token_limiter.can_proceed(estimated_tokens)\n                          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File \"D:\\automated-research-report-generation\\research_and_analyst\\utils\\token_limiter.py\", line 59, in can_proceed\n    current_usage = self.get_tokens_used_this_minute()\n  File \"D:\\automated-research-report-generation\\research_and_analyst\\utils\\token_limiter.py\", line 52, in get_tokens_used_this_minute\n    return sum(tokens for _, tokens in self.token_usage)\n  File \"D:\\automated-research-report-generation\\research_and_analyst\\utils\\token_limiter.py\", line 52, in <genexpr>\n    return sum(tokens for _, tokens in self.token_usage)\n                          ^^^^^^^^^\nTypeError: cannot unpack non-iterable datetime.datetime object\n", "timestamp": "2026-05-09T11:21:09.321405Z", "level": "error", "event": "Error updating feedback"}

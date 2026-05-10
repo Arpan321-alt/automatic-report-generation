@@ -1,0 +1,132 @@
+{"timestamp": "2026-05-09T15:35:25.001282Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T15:35:25.002101Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T15:35:25.002430Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T15:35:25.002658Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T15:35:25.006473Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T15:35:25.008788Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-05-09T15:35:25.009035Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-05-09T15:35:25.580205Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:25.585958Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:25.625295Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "ReportService", "topic": "Genai in Healthcare", "thread_id": "8f550af7-aa9e-4d44-95c2-650afb573fa5", "timestamp": "2026-05-09T15:35:25.637914Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "Genai in Healthcare", "timestamp": "2026-05-09T15:35:25.906383Z", "level": "info", "event": "Creating analyst personas"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "count": 6, "timestamp": "2026-05-09T15:35:27.440977Z", "level": "info", "event": "Analysts created"}
+{"timestamp": "2026-05-09T15:35:29.581724Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T15:35:29.582204Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T15:35:29.582455Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T15:35:29.582637Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T15:35:29.586989Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T15:35:29.588133Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-05-09T15:35:29.589762Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-05-09T15:35:29.644546Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:29.645633Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:29.662021Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "ReportService", "thread_id": "8f550af7-aa9e-4d44-95c2-650afb573fa5", "timestamp": "2026-05-09T15:35:29.713063Z", "level": "info", "event": "Feedback updated"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T15:35:29.731816Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T15:35:29.735479Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Sofia Patel", "timestamp": "2026-05-09T15:35:29.750601Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Ethan Hall", "timestamp": "2026-05-09T15:35:29.760035Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Maya Ramos", "timestamp": "2026-05-09T15:35:29.761565Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Julian Lee", "timestamp": "2026-05-09T15:35:29.766377Z", "level": "info", "event": "Generating analyst question"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Nice to meet you, I'm Maya Singh, a healthcare analyst. I'm excited to learn more about Genai in healthcare from your expertise. \n\nCan you start by explaining what Genai is and how it differs from tra", "timestamp": "2026-05-09T15:35:29.990787Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:29.993528Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Nice to meet you, I'm Alex Chen, a data analyst from the University of Michigan. I'm excited to learn more about your work in developing predictive models for patient outcomes and identifying high-ris", "timestamp": "2026-05-09T15:35:30.008874Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:30.010772Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Nice to meet you, I'm Maya Singh, a healthcare analyst. I'm excited to learn from your expertise in AI ethics. \n\nCan you start by sharing your thoughts on the current state of Genai in healthcare? Wha", "timestamp": "2026-05-09T15:35:30.027666Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:30.029694Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Nice to meet you, I'm Maya Singh, a healthcare analyst from the World Health Organization. I'm excited to learn from your expertise in AI and healthcare. \n\nTo start, can you tell me about the most sig", "timestamp": "2026-05-09T15:35:30.079697Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "question_preview": "Nice to meet you, I'm Maya Singh, a data analyst from the University of California, Berkeley. I'm excited to learn from your expertise in computer vision engineering, particularly in the application o", "timestamp": "2026-05-09T15:35:30.081973Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "question_preview": "Nice to meet you, I'm Maya Singh, a healthcare analyst from the World Health Organization. I'm excited to learn from your expertise in evaluating the cost-effectiveness of AI-powered healthcare interv", "timestamp": "2026-05-09T15:35:30.083283Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:30.084368Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:30.091158Z", "level": "info", "event": "Generating search query from conversation"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T15:35:30.097574Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "Genai in healthcare definition", "timestamp": "2026-05-09T15:35:30.124555Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "Genai in healthcare advantages over traditional machine learning", "timestamp": "2026-05-09T15:35:30.192955Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "current state of Genai in healthcare challenges and concerns", "timestamp": "2026-05-09T15:35:30.198690Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "GenAI breakthroughs in personalized medicine", "timestamp": "2026-05-09T15:35:30.229463Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "query": "Genai in healthcare breakthroughs diagnosis accuracy patient outcomes", "timestamp": "2026-05-09T15:35:30.232442Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "query": "cost-effectiveness of AI-powered healthcare interventions", "timestamp": "2026-05-09T15:35:30.241000Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "result_count": 1, "timestamp": "2026-05-09T15:35:32.228743Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T15:35:32.231646Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2026-05-09T15:35:32.349204Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T15:35:32.350640Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T15:35:32.353156Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+{"module": "InterviewGraphBuilder", "result_count": 1, "timestamp": "2026-05-09T15:35:32.839781Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T15:35:32.841633Z", "level": "info", "event": "Generating expert answer"}
+{"module": "InterviewGraphBuilder", "result_count": 1, "timestamp": "2026-05-09T15:35:32.983185Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Ethan Hall", "timestamp": "2026-05-09T15:35:32.984794Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+{"module": "InterviewGraphBuilder", "preview": " \n\n[1] https://www.cmu.edu/intelligentbusiness/genai-personalized-medicine.html", "timestamp": "2026-05-09T15:35:33.042984Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T15:35:33.044622Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T15:35:33.046083Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "result_count": 1, "timestamp": "2026-05-09T15:35:33.054357Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Sofia Patel", "timestamp": "2026-05-09T15:35:33.057715Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+{"module": "InterviewGraphBuilder", "result_count": 1, "timestamp": "2026-05-09T15:35:33.146935Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Maya Ramos", "timestamp": "2026-05-09T15:35:33.148515Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+{"module": "InterviewGraphBuilder", "result_count": 1, "timestamp": "2026-05-09T15:35:34.629588Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Julian Lee", "timestamp": "2026-05-09T15:35:34.631638Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 4.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2026-05-09T15:35:37.154343Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T15:35:37.156723Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Ethan Hall", "timestamp": "2026-05-09T15:35:37.159245Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 10.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"module": "InterviewGraphBuilder", "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kqs8s1j1e3n8ek8p343g2074` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5694, Requested 913. Please try again in 6.07s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2026-05-09T15:35:39.460827Z", "level": "error", "event": "Error writing report section"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": "", "timestamp": "2026-05-09T15:35:43.341337Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T15:35:43.343378Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Maya Ramos", "timestamp": "2026-05-09T15:35:43.345251Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 6.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"module": "InterviewGraphBuilder", "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kqs8s1j1e3n8ek8p343g2074` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5694, Requested 771. Please try again in 4.65s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2026-05-09T15:35:44.763999Z", "level": "error", "event": "Error generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"module": "InterviewGraphBuilder", "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kqs8s1j1e3n8ek8p343g2074` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5650, Requested 1056. Please try again in 7.06s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2026-05-09T15:35:45.237865Z", "level": "error", "event": "Error generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"module": "InterviewGraphBuilder", "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kqs8s1j1e3n8ek8p343g2074` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5457, Requested 695. Please try again in 1.52s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2026-05-09T15:35:47.125224Z", "level": "error", "event": "Error writing report section"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 2.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 7.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 1414, "timestamp": "2026-05-09T15:35:49.733192Z", "level": "info", "event": "Report section generated successfully"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"module": "InterviewGraphBuilder", "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kqs8s1j1e3n8ek8p343g2074` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5319, Requested 902. Please try again in 2.21s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2026-05-09T15:35:56.527716Z", "level": "error", "event": "Error writing report section"}
+{"module": "ReportService", "error": "Error in [D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\_base_client.py] at line [1044] | Message: Failed to generate report section\nTraceback:\nTraceback (most recent call last):\n  File \"D:\\automated-research-report-generation\\research_and_analyst\\workflows\\interview_workflow.py\", line 148, in _write_section\n    section = self.llm.invoke(\n        [SystemMessage(content=system_prompt)]\n        + [HumanMessage(content=f\"Use this source to write your section: {context}\")]\n    )\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 395, in invoke\n    self.generate_prompt(\n    ~~~~~~~~~~~~~~~~~~~~^\n        [self._convert_input(input)],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    ).generations[0][0],\n    ^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 1025, in generate_prompt\n    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)\n           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 842, in generate\n    self._generate_with_cache(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^\n        m,\n        ^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 1091, in _generate_with_cache\n    result = self._generate(\n        messages, stop=stop, run_manager=run_manager, **kwargs\n    )\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_groq\\chat_models.py\", line 557, in _generate\n    response = self.client.create(messages=message_dicts, **params)\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\resources\\chat\\completions.py\", line 461, in create\n    return self._post(\n           ~~~~~~~~~~^\n        \"/openai/v1/chat/completions\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<45 lines>...\n        stream_cls=Stream[ChatCompletionChunk],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\_base_client.py\", line 1242, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\_base_client.py\", line 1044, in request\n    raise self._make_status_error_from_response(err.response) from None\ngroq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.1-8b-instant` in organization `org_01kqs8s1j1e3n8ek8p343g2074` service tier `on_demand` on tokens per minute (TPM): Limit 6000, Used 5694, Requested 913. Please try again in 6.07s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\n", "timestamp": "2026-05-09T15:35:56.654191Z", "level": "error", "event": "Error updating feedback"}

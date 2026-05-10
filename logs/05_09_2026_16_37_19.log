@@ -1,0 +1,105 @@
+{"timestamp": "2026-05-09T11:07:34.700886Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T11:07:34.701204Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T11:07:34.701429Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T11:07:34.701595Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:07:34.703628Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:07:34.705604Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:07:34.705752Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:07:34.892769Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:07:34.894636Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:07:34.896017Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:07:34.906206Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:07:34.918538Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:07:34.934141Z", "level": "warning", "event": "No analysts found \u2014 skipping interviews"}
+{"module": "ReportService", "thread_id": "fe98291d-df84-4898-b2d5-eabbb1f80394", "timestamp": "2026-05-09T11:07:34.934583Z", "level": "info", "event": "Feedback updated"}
+{"timestamp": "2026-05-09T11:07:36.698728Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T11:07:36.698941Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T11:07:36.699130Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T11:07:36.699285Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:07:36.701289Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:07:36.701500Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:07:36.701704Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:07:36.756068Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:07:36.756463Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:07:36.758238Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:07:36.767347Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:07:36.779722Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:07:36.780930Z", "level": "warning", "event": "No analysts found \u2014 skipping interviews"}
+{"module": "ReportService", "thread_id": "fe98291d-df84-4898-b2d5-eabbb1f80394", "timestamp": "2026-05-09T11:07:36.781542Z", "level": "info", "event": "Feedback updated"}
+{"timestamp": "2026-05-09T11:08:02.160298Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T11:08:02.160563Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T11:08:02.160764Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T11:08:02.160983Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:08:02.163050Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:08:02.163330Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:08:02.163526Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:08:02.205798Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:08:02.206918Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:08:02.208244Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:08:02.218566Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:08:02.228954Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "topic": "Healthcare", "thread_id": "f37b266a-7e96-4433-b380-dc466526e8eb", "timestamp": "2026-05-09T11:08:02.229234Z", "level": "info", "event": "Starting report pipeline"}
+{"module": "AutonomousReportGenerator", "topic": "Healthcare", "timestamp": "2026-05-09T11:08:02.231699Z", "level": "info", "event": "Creating analyst personas"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "count": 2, "timestamp": "2026-05-09T11:08:02.880255Z", "level": "info", "event": "Analysts created"}
+{"timestamp": "2026-05-09T11:08:11.693669Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T11:08:11.693929Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T11:08:11.694118Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T11:08:11.694295Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:08:11.696350Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T11:08:11.696552Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:08:11.696739Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.3-70b-versatile", "timestamp": "2026-05-09T11:08:11.739278Z", "level": "info", "event": "LLM loaded successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:08:11.739653Z", "level": "info", "event": "Building report generation graph"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:08:11.740296Z", "level": "info", "event": "Building Interview Graph workflow"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:08:11.749827Z", "level": "info", "event": "Interview Graph compiled successfully"}
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:08:11.765742Z", "level": "info", "event": "Report generation graph built successfully"}
+{"module": "ReportService", "thread_id": "f37b266a-7e96-4433-b380-dc466526e8eb", "timestamp": "2026-05-09T11:08:11.767138Z", "level": "info", "event": "Feedback updated"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T11:08:11.775036Z", "level": "info", "event": "Generating analyst question"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T11:08:11.779432Z", "level": "info", "event": "Generating analyst question"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "My name is Emily Chen, and I'm a healthcare analyst. I'm excited to be speaking with the expert today to gain a deeper understanding of the economic and social implications of healthcare policies. \n\nE", "timestamp": "2026-05-09T11:08:12.267241Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:08:12.268588Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "question_preview": "Hello, my name is Rachel Kim, and I'm a healthcare analyst. I'm excited to be speaking with the expert today to learn more about the latest advancements in medical technology. \n\nExpert, I'd like to st", "timestamp": "2026-05-09T11:08:12.450082Z", "level": "info", "event": "Question generated successfully"}
+{"module": "InterviewGraphBuilder", "timestamp": "2026-05-09T11:08:12.451283Z", "level": "info", "event": "Generating search query from conversation"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "effective policies for equitable access to healthcare services", "timestamp": "2026-05-09T11:08:12.541555Z", "level": "info", "event": "Performing Tavily web search"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "query": "emerging medical technologies transforming healthcare delivery 2024-2034 patient outcomes cost reduction", "timestamp": "2026-05-09T11:08:12.653572Z", "level": "info", "event": "Performing Tavily web search"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2026-05-09T11:08:13.464176Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T11:08:13.466559Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": " \n\nPlease share your insights, and I'll make sure to take note of the relevant sources you mention. \n\n(Note: I'll make sure to follow the guidelines provided and include the sources in my follow-up qu", "timestamp": "2026-05-09T11:08:13.975786Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T11:08:13.976693Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Rachel Kim", "timestamp": "2026-05-09T11:08:13.977566Z", "level": "info", "event": "Generating report section"}
+{"module": "InterviewGraphBuilder", "result_count": 5, "timestamp": "2026-05-09T11:08:15.331502Z", "level": "info", "event": "Web search completed"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T11:08:15.332730Z", "level": "info", "event": "Generating expert answer"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "preview": " \n\nPlease share your insights, and I'll make sure to take note of the key points you mention.", "timestamp": "2026-05-09T11:08:15.744804Z", "level": "info", "event": "Expert answer generated successfully"}
+{"module": "InterviewGraphBuilder", "message_count": 3, "timestamp": "2026-05-09T11:08:15.746565Z", "level": "info", "event": "Interview transcript saved"}
+{"module": "InterviewGraphBuilder", "analyst": "Dr. Liam Chen", "timestamp": "2026-05-09T11:08:15.747688Z", "level": "info", "event": "Generating report section"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 3094, "timestamp": "2026-05-09T11:08:15.858934Z", "level": "info", "event": "Report section generated successfully"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "InterviewGraphBuilder", "length": 2887, "timestamp": "2026-05-09T11:08:17.559608Z", "level": "info", "event": "Report section generated successfully"}
+{"module": "AutonomousReportGenerator", "topic": "Healthcare", "timestamp": "2026-05-09T11:08:17.562425Z", "level": "info", "event": "Generating introduction"}
+{"module": "AutonomousReportGenerator", "topic": "Healthcare", "timestamp": "2026-05-09T11:08:17.562784Z", "level": "info", "event": "Generating conclusion"}
+{"module": "AutonomousReportGenerator", "topic": "Healthcare", "timestamp": "2026-05-09T11:08:17.565388Z", "level": "info", "event": "Writing report"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+Retrying request to /openai/v1/chat/completions in 5.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 8.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 3.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+{"module": "AutonomousReportGenerator", "error": "Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jjvqeps7f2f8gew8ppt3cv7c` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11833, Requested 1759. Please try again in 7.959999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}", "timestamp": "2026-05-09T11:08:25.684937Z", "level": "error", "event": "Error generating introduction"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+Retrying request to /openai/v1/chat/completions in 9.000000 seconds
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "length": 493, "timestamp": "2026-05-09T11:08:26.056516Z", "level": "info", "event": "Conclusion generated"}
+HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+{"module": "AutonomousReportGenerator", "timestamp": "2026-05-09T11:08:36.403078Z", "level": "info", "event": "Report written successfully"}
+{"module": "ReportService", "error": "Error in [D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\_base_client.py] at line [1044] | Message: Failed to generate introduction\nTraceback:\nTraceback (most recent call last):\n  File \"D:\\automated-research-report-generation\\research_and_analyst\\workflows\\report_generator_workflow.py\", line 116, in write_introduction\n    intro = self.llm.invoke([\n        SystemMessage(content=system_prompt),\n        HumanMessage(content=\"Write the report introduction\")\n    ])\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 395, in invoke\n    self.generate_prompt(\n    ~~~~~~~~~~~~~~~~~~~~^\n        [self._convert_input(input)],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<6 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    ).generations[0][0],\n    ^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 1025, in generate_prompt\n    return self.generate(prompt_messages, stop=stop, callbacks=callbacks, **kwargs)\n           ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 842, in generate\n    self._generate_with_cache(\n    ~~~~~~~~~~~~~~~~~~~~~~~~~^\n        m,\n        ^^\n    ...<2 lines>...\n        **kwargs,\n        ^^^^^^^^^\n    )\n    ^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_core\\language_models\\chat_models.py\", line 1091, in _generate_with_cache\n    result = self._generate(\n        messages, stop=stop, run_manager=run_manager, **kwargs\n    )\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\langchain_groq\\chat_models.py\", line 557, in _generate\n    response = self.client.create(messages=message_dicts, **params)\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\resources\\chat\\completions.py\", line 461, in create\n    return self._post(\n           ~~~~~~~~~~^\n        \"/openai/v1/chat/completions\",\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<45 lines>...\n        stream_cls=Stream[ChatCompletionChunk],\n        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    )\n    ^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\_base_client.py\", line 1242, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"D:\\automated-research-report-generation\\.venv\\Lib\\site-packages\\groq\\_base_client.py\", line 1044, in request\n    raise self._make_status_error_from_response(err.response) from None\ngroq.RateLimitError: Error code: 429 - {'error': {'message': 'Rate limit reached for model `llama-3.3-70b-versatile` in organization `org_01jjvqeps7f2f8gew8ppt3cv7c` service tier `on_demand` on tokens per minute (TPM): Limit 12000, Used 11833, Requested 1759. Please try again in 7.959999999s. Need more tokens? Upgrade to Dev Tier today at https://console.groq.com/settings/billing', 'type': 'tokens', 'code': 'rate_limit_exceeded'}}\n", "timestamp": "2026-05-09T11:08:36.404770Z", "level": "error", "event": "Error updating feedback"}

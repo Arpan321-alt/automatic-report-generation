@@ -1,0 +1,8 @@
+{"timestamp": "2026-05-09T14:34:08.438942Z", "level": "info", "event": "Initializing ApiKeyManager"}
+{"timestamp": "2026-05-09T14:34:08.439646Z", "level": "warning", "event": "OPENAI_API_KEY is missing in environment variables"}
+{"timestamp": "2026-05-09T14:34:08.439907Z", "level": "info", "event": "GOOGLE_API_KEY loaded successfully from environment"}
+{"timestamp": "2026-05-09T14:34:08.440093Z", "level": "info", "event": "GROQ_API_KEY loaded successfully from environment"}
+{"path": "D:\\automated-research-report-generation\\research_and_analyst\\config\\configuration.yaml", "keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T14:34:08.443258Z", "level": "info", "event": "Configuration loaded successfully"}
+{"config_keys": ["astra_db", "embedding_model", "retriever", "llm"], "timestamp": "2026-05-09T14:34:08.445406Z", "level": "info", "event": "YAML configuration loaded successfully"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-05-09T14:34:08.445654Z", "level": "info", "event": "Loading LLM"}
+{"provider": "groq", "model": "llama-3.1-8b-instant", "timestamp": "2026-05-09T14:34:08.963999Z", "level": "info", "event": "LLM loaded successfully"}
